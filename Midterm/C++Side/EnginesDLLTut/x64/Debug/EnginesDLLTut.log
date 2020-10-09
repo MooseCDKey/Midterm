@@ -1,0 +1,6 @@
+﻿  CheckpointTimeLogger.cpp
+  Wrapper.cpp
+  Generating Code...
+C:\Users\musta\source\repos\EnginesDLLTut\EnginesDLLTut\CheckpointTimeLogger.cpp(27,22): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     Creating library C:\Users\musta\source\repos\EnginesDLLTut\x64\Debug\EnginesDLLTut.lib and object C:\Users\musta\source\repos\EnginesDLLTut\x64\Debug\EnginesDLLTut.exp
+  EnginesDLLTut.vcxproj -> C:\Users\musta\source\repos\EnginesDLLTut\x64\Debug\EnginesDLLTut.dll
