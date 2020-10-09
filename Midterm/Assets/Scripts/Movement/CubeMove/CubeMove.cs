@@ -11,8 +11,8 @@ public class CubeMove : MonoBehaviour
     void Start()
     {
 
-        Apoint = new Vector3(2, 0, 0);
-        Bpoint = new Vector3(5, 0, 0);
+        Apoint = new Vector3(104, 17, 94);
+        Bpoint = new Vector3(104, 17, 208);
     }
 
         // Update is called once per frame
