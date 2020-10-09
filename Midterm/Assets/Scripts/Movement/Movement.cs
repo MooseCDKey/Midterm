@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * travel * Time.deltaTime);
 
-         if (Input.GetKeyDown(KeyCode.F) && controller.isGrounded)
+         if (Input.GetKeyDown(KeyCode.Mouse1) && controller.isGrounded)
          {
              Debug.Log("hasJumped");
              velocity.y = Mathf.Sqrt(JumpH * -2 * gravity);
