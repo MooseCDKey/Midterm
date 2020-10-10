@@ -9,7 +9,7 @@ public class CubeMove2 : MonoBehaviour
     Vector3 Bpoint;
     // Use this for initialization
     void Start()
-    {
+    {//cube lerp
 
         Apoint = new Vector3(153, 17, 94);
         Bpoint = new Vector3(153, 17, 208);

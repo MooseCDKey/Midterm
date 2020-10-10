@@ -69,8 +69,17 @@ public class PluginBoss : MonoBehaviour
             float checkpointTime = currentTime - LastTime;
             LastTime = currentTime;
             SaveTimeTest(checkpointTime);
+            Debug.Log(currentTime);
             
         }
+
+        /*if (Input.GetKeyDown(KeyCode.Space))
+        { float currentTime = Time.time;
+            float checkpointTime = currentTime - LastTime;
+            LastTime = currentTime;
+            SaveTimeTest(checkpointTime);
+            
+        }*/
 
         for (int i = 0; i< 10; i++)
         {
@@ -89,3 +98,4 @@ public class PluginBoss : MonoBehaviour
 
     }
 }
+

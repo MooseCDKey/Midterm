@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CubeMove : MonoBehaviour
 {
+    //makes cube move via lerp and pingpong
     public float VelocityOfCube = 1.25f;
     Vector3 Apoint;
     Vector3 Bpoint;

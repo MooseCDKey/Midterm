@@ -10,7 +10,7 @@ public class CubeMoveV2 : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {//cube lerp
         Apoint = new Vector3(235, 24, -125);
         Bpoint = new Vector3(235, 3, -125);
     }

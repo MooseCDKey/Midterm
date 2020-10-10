@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Manages all of the project's Scenes
+//uses build index to switch between scenes
 public class SceneManage : MonoBehaviour
 {
     public void PlayG()
